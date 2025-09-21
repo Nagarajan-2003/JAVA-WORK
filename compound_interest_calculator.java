@@ -16,7 +16,7 @@ public class compound_interest_calculator{
         System.out.print("Enter the number of years: ");
         years=sc.nextInt();
         amount=principal*Math.pow(1+(rate/100)/time,time*years);
-        System.out.println("The amount after "+years+" years is: "+amount);
+        System.out.println("The amount after "+years+" years is: $"+amount);
         sc.close();
     }
 }
